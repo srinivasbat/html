@@ -13,6 +13,7 @@ jobs:
 
     - name: Deploy HTML
       run: |
-        # Replace 'your-html-file.html' with your HTML file's name
-        cp index.html $GITHUB_WORKSPACE
+        # Replace 'index.html' with your HTML file's name
+        cp index.html $GITHUB_WORKSPACE/index.html
       # The GITHUB_WORKSPACE environment variable points to the repository's root directory
+
